@@ -36,3 +36,5 @@ npm start
 После публикации добавить сюда публичный URL Render и URL GitHub.
 
 Render Web Service must listen on process.env.PORT and 0.0.0.0.
+
+`npm start` автоматически выполняет `prestart`, поэтому перед запуском проверяет/создаёт таблицу `Products` в указанной PostgreSQL. Скрипт идемпотентен и не создаёт новую базу данных.

@@ -4,6 +4,7 @@
   "description": "WT-10: REST API on Express with PostgreSQL",
   "main": "app.js",
   "scripts": {
+    "prestart": "node scripts/setup-db.js",
     "start": "node app.js",
     "db:setup": "node scripts/setup-db.js"
   },
