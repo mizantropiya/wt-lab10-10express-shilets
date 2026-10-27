@@ -34,3 +34,5 @@ npm start
 - Environment Variable: `DATABASE_URL` = Internal Database URL PostgreSQL
 
 После публикации добавить сюда публичный URL Render и URL GitHub.
+
+Render Web Service must listen on process.env.PORT and 0.0.0.0.
